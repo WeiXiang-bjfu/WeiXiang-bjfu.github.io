@@ -143,6 +143,53 @@ body{background:#f6f7f4}
 .pub-main h3 a:hover,.contact-details a:hover{color:var(--forest)}
 footer{background:var(--forest-deep);color:rgba(255,255,255,.82);border-top:0}
 
+/* Remove party-building-related award content while retaining academic,
+   teaching, mentorship and student-service recognitions. */
+#honours .project-grid .project-card:nth-child(4){display:none}
+
+#honours .project-grid .project-card:nth-child(9) p{
+  font-size:0;
+  line-height:0
+}
+#honours .project-grid .project-card:nth-child(9) p::after{
+  content:"Young Faculty Teaching Skills Competition, Second Prize (2015 and 2016); Outstanding Head Teacher (2016–2018).";
+  display:block;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.65
+}
+
+#honours .project-grid .project-card:nth-child(10) .project-meta,
+#honours .project-grid .project-card:nth-child(10) h3,
+#honours .project-grid .project-card:nth-child(10) p{
+  font-size:0;
+  line-height:0
+}
+#honours .project-grid .project-card:nth-child(10) .project-meta::after{
+  content:"2022 · College of Forestry";
+  display:block;
+  color:var(--forest);
+  font-size:11px;
+  font-weight:700;
+  line-height:1.45;
+  text-transform:uppercase;
+  letter-spacing:.055em
+}
+#honours .project-grid .project-card:nth-child(10) h3::after{
+  content:"Outstanding Career Guidance Teacher";
+  display:block;
+  color:var(--heading);
+  font-size:20px;
+  line-height:1.35
+}
+#honours .project-grid .project-card:nth-child(10) p::after{
+  content:"Recognition for excellence in student career guidance and support.";
+  display:block;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.65
+}
+
 @media(max-width:1050px){
   #mainnav{gap:16px}
   #mainnav a{font-size:13px}
