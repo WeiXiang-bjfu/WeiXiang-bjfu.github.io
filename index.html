@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic website of Wei Xiang, Professor and Vice Dean at the School of Forestry, Beijing Forestry University. Forest growth modelling, natural forest dynamics, dendroecology and sustainable forest management.">
+  <meta name="author" content="Wei Xiang">
+  <title>Wei Xiang | Beijing Forestry University</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="nav-shell">
+      <a class="site-name" href="#home">Wei Xiang</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mainnav" aria-label="Open navigation">☰</button>
+      <nav id="mainnav">
+        <a href="#home">Home</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="theme-switcher" aria-label="Color theme">
+        <button id="themeButton" title="Switch color theme" aria-label="Switch color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="home-section">
+      <div class="page-shell profile-layout">
+        <aside class="profile-column">
+          <div class="portrait-frame">
+            <img src="https://wei-xiang-academic-homepage-38vdsclx7-fangzexu7-9225s-projects.vercel.app/wei-xiang.jpg" alt="Professor Wei Xiang" class="portrait-photo">
+          </div>
+          <h1>Wei Xiang</h1>
+          <p class="role">Professor · Forest Management &amp; Modelling</p>
+          <p class="institution"><a href="https://english.bjfu.edu.cn/" target="_blank" rel="noopener">Beijing Forestry University</a></p>
+          <p class="secondary-role">Vice Dean, School of Forestry</p>
+          <div class="social-row" aria-label="Academic links">
+            <a href="mailto:wxiang@bjfu.edu.cn" aria-label="Email" title="Email">✉</a>
+            <a href="https://orcid.org/0000-0002-0885-5527" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">iD</a>
+            <a href="#publications" aria-label="Publications" title="Publications">▤</a>
+          </div>
+        </aside>
+
+        <div class="bio-column">
+          <h2>Biography</h2>
+          <p>I am a Professor and Vice Dean at the School of Forestry, Beijing Forestry University, China. My research focuses on forest growth modelling, natural forest dynamics and sustainable forest management.</p>
+          <p>I develop statistical and simulation models to understand tree growth, recruitment and mortality, and I study how competition, stand structure, climate and silvicultural treatments shape forest development. My work combines long-term permanent sample plots, tree-ring data and quantitative modelling, with a particular interest in natural and semi-natural mixed forests.</p>
+          <p>A central goal of my research is to connect quantitative forest science with adaptive and multifunctional management under environmental change.</p>
+
+          <div class="facts-grid">
+            <section class="fact-block">
+              <h3>Interests</h3>
+              <ul class="interest-list">
+                <li>Forest growth and yield modelling</li>
+                <li>Natural mixed-forest dynamics</li>
+                <li>Tree recruitment and mortality</li>
+                <li>Dendroecology and climate–growth relationships</li>
+                <li>Adaptive and multifunctional forest management</li>
+              </ul>
+            </section>
+            <section class="fact-block">
+              <h3>Education</h3>
+              <ol class="timeline compact">
+                <li><span class="timeline-mark">🎓</span><div><strong>PhD in Forest Sciences, 2013</strong><span>Lakehead University, Canada</span></div></li>
+                <li><span class="timeline-mark">🎓</span><div><strong>MS in Forest Management, 2009</strong><span>Chinese Academy of Forestry, China</span></div></li>
+                <li><span class="timeline-mark">🎓</span><div><strong>BS in Forestry, 2006</strong><span>Central South University of Forestry and Technology, China</span></div></li>
+              </ol>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="page-shell">
+        <div class="section-heading">
+          <h2>Publications</h2>
+          <p>Selected articles on forest growth, recruitment, mortality, climate sensitivity and management.</p>
+        </div>
+        <div class="publication-tools">
+          <input id="pubSearch" type="search" placeholder="Filter publications by title, journal, year or keyword…" aria-label="Filter publications">
+          <div class="filter-buttons" aria-label="Publication filter">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="growth">Growth</button>
+            <button class="filter" data-filter="climate">Climate</button>
+            <button class="filter" data-filter="mortality">Mortality</button>
+            <button class="filter" data-filter="management">Management</button>
+          </div>
+        </div>
+        <div id="publicationList" class="publication-list">
+          <article class="pub-item" data-tags="growth management natural forest">
+            <div class="pub-year">2025</div><div class="pub-main">
+              <h3><a href="https://doi.org/10.12403/j.1001-1498.20240308" target="_blank" rel="noopener">Calculation methods of the dominant height in natural spruce–fir mixed-conifer forests</a></h3>
+              <p class="authors">R. Tao, <strong>W. Xiang</strong>, M. Zhou, Y. Feng, F. Xu, Z. Ni</p><p class="venue"><em>Forest Research</em></p>
+            </div><div class="pub-actions"><a href="https://doi.org/10.12403/j.1001-1498.20240308" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+          <article class="pub-item" data-tags="growth climate tree-ring plantation">
+            <div class="pub-year">2023</div><div class="pub-main">
+              <h3><a href="https://doi.org/10.1016/j.foreco.2023.120800" target="_blank" rel="noopener">Fusing tree-ring and permanent sample plot data to model influences of climate and thinning on tree growth in larch plantations in northeast China</a></h3>
+              <p class="authors">J. Shi, F. Xu, <strong>W. Xiang</strong></p><p class="venue"><em>Forest Ecology and Management</em>, 531, 120800</p>
+            </div><div class="pub-actions"><a href="https://doi.org/10.1016/j.foreco.2023.120800" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+          <article class="pub-item" data-tags="growth climate wood density dendroecology">
+            <div class="pub-year">2019</div><div class="pub-main">
+              <h3><a href="https://academic.oup.com/forestry/article-abstract/92/3/357/5365423" target="_blank" rel="noopener">Characterizing wood density–climate relationships along the stem in black spruce using boosted regression trees and mixed-effects models</a></h3>
+              <p class="authors"><strong>W. Xiang</strong>, M. Hassegawa, T. Franceschini, M. Leitch, A. Achim</p><p class="venue"><em>Forestry: An International Journal of Forest Research</em>, 92(3), 357–370</p>
+            </div><div class="pub-actions"><a href="https://academic.oup.com/forestry/article-abstract/92/3/357/5365423" target="_blank" rel="noopener">View</a></div>
+          </article>
+          <article class="pub-item" data-tags="growth climate recruitment natural forest">
+            <div class="pub-year">2016</div><div class="pub-main">
+              <h3><a href="https://doi.org/10.1016/j.foreco.2016.09.050" target="_blank" rel="noopener">Modelling tree recruitment in relation to climate and competition in semi-natural Larix–Picea–Abies forests in northeast China</a></h3>
+              <p class="authors"><strong>W. Xiang</strong>, X. Lei, X. Zhang</p><p class="venue"><em>Forest Ecology and Management</em>, 382, 100–109</p>
+            </div><div class="pub-actions"><a href="https://doi.org/10.1016/j.foreco.2016.09.050" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+          <article class="pub-item" data-tags="climate growth wood density dendroecology">
+            <div class="pub-year">2014</div><div class="pub-main">
+              <h3><a href="https://doi.org/10.1007/s13595-014-0363-7" target="_blank" rel="noopener">Radial trends in black spruce wood density can show an age- and growth-related decline</a></h3>
+              <p class="authors"><strong>W. Xiang</strong>, M. Leitch, D. Auty, E. Duchateau, A. Achim</p><p class="venue"><em>Annals of Forest Science</em>, 71, 603–615</p>
+            </div><div class="pub-actions"><a href="https://doi.org/10.1007/s13595-014-0363-7" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+          <article class="pub-item" data-tags="growth management matrix model natural forest">
+            <div class="pub-year">2011</div><div class="pub-main">
+              <h3><a href="https://html.rhhz.net/linyekexue/html/20110612.htm" target="_blank" rel="noopener">Matrix growth model and harvest scenario simulation for multiple uses of larch–spruce–fir forests</a></h3>
+              <p class="authors"><strong>W. Xiang</strong>, X. Lei, L. Hong, J. Sun, P. Wang</p><p class="venue"><em>Scientia Silvae Sinicae</em>, 47(6), 77–87</p>
+            </div><div class="pub-actions"><a href="https://html.rhhz.net/linyekexue/html/20110612.htm" target="_blank" rel="noopener">View</a></div>
+          </article>
+          <article class="pub-item" data-tags="mortality growth natural forest model">
+            <div class="pub-year">2008</div><div class="pub-main">
+              <h3><a href="https://doi.org/10.13332/j.1000-1522.2008.06.008" target="_blank" rel="noopener">Individual tree mortality models for semi-natural larch–spruce–fir forests in Jilin Province, northeastern China</a></h3>
+              <p class="authors"><strong>W. Xiang</strong>, X. Lei, G. Liu, G. Xu, G. Chen</p><p class="venue"><em>Journal of Beijing Forestry University</em>, 30(6)</p>
+            </div><div class="pub-actions"><a href="https://doi.org/10.13332/j.1000-1522.2008.06.008" target="_blank" rel="noopener">DOI</a></div>
+          </article>
+        </div>
+        <p id="noResults" class="no-results" hidden>No matching publications.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section muted-section">
+      <div class="page-shell">
+        <div class="section-heading"><h2>Projects</h2><p>Selected research themes and funded work.</p></div>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-meta">2017–2020 · National Key R&amp;D Program</div><h3>Tending and regeneration of Picea–Abies forests</h3><p>Research on silvicultural treatments and regeneration technologies for spruce–fir forests, linking stand dynamics with management.</p><span class="project-tag">Natural forest management</span></article>
+          <article class="project-card"><div class="project-meta">2016–2018 · National Natural Science Foundation of China</div><h3>Thinning, climate and growth-ring density in Larix olgensis</h3><p>Quantifying the combined effects of silvicultural thinning and climate variability on tree-ring density and growth responses.</p><span class="project-tag">Dendroecology</span></article>
+          <article class="project-card"><div class="project-meta">Ongoing research theme</div><h3>Multifunctional management of natural mixed forests</h3><p>Developing growth and dynamics models to evaluate long-term trade-offs among production, structural complexity, carbon and other forest functions.</p><span class="project-tag">Forest growth modelling</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="section">
+      <div class="page-shell">
+        <div class="section-heading"><h2>Teaching</h2><p>Core areas connected to forest management and quantitative forestry.</p></div>
+        <div class="simple-cards">
+          <article><h3>Forest Management</h3><p>Principles, planning and decision-making for sustainable management of forest resources.</p></article>
+          <article><h3>Forest Growth &amp; Yield Modelling</h3><p>Statistical and process-oriented approaches for describing and forecasting tree and stand dynamics.</p></article>
+          <article><h3>Sustainable Forest Management</h3><p>Adaptive and multifunctional strategies for natural and semi-natural forests under environmental change.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section muted-section">
+      <div class="page-shell">
+        <div class="section-heading"><h2>Experience</h2><p>Academic experience and professional service.</p></div>
+        <div class="experience-list">
+          <article class="experience-item"><div class="experience-date">2014–Present</div><div><h3>Beijing Forestry University</h3><p class="experience-role">School of Forestry · Faculty member; currently Professor and Vice Dean</p><p>Research and teaching in forest management, forest growth modelling and natural forest dynamics.</p></div></article>
+          <article class="experience-item"><div class="experience-date">From 2022</div><div><h3>Academic service in Xinjiang</h3><p class="experience-role">Xinjiang Agricultural University · Forestry and Landscape Architecture</p><p>Participated in academic and educational collaboration as part of inter-university support work, including forest science research and graduate education.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="page-shell contact-layout">
+        <div><div class="section-heading left"><h2>Contact</h2><p>For research collaboration, student enquiries and conference communication.</p></div></div>
+        <div class="contact-details">
+          <p><span>Email</span><a href="mailto:wxiang@bjfu.edu.cn">wxiang@bjfu.edu.cn</a></p>
+          <p><span>Institution</span><a href="https://english.bjfu.edu.cn/" target="_blank" rel="noopener">Beijing Forestry University</a></p>
+          <p><span>School</span>School of Forestry</p>
+          <p><span>Address</span>No. 35 Qinghua East Road, Haidian District, Beijing 100083, China</p>
+          <p><span>ORCID</span><a href="https://orcid.org/0000-0002-0885-5527" target="_blank" rel="noopener">0000-0002-0885-5527</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="page-shell footer-row"><span>© <span id="year"></span> Wei Xiang</span><span>Last updated August 2026 · Academic website</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
