@@ -25,6 +25,15 @@ nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
 const publications=[
   {
     year:2026,
+    title:'Radial growth dynamics of different diameter classes of Abies nephrolepis and its response to climate factors',
+    original:'',
+    authors:'S. Huang, Q. Wang, Z. Wang, W. Xu, <strong>W. Xiang</strong>',
+    venue:'<em>Journal of Central South University of Forestry & Technology</em>, 46(7), 47–57',
+    url:'https://doi.org/10.14067/j.cnki.1673-923x.2026.07.005',
+    label:'DOI',tags:'growth climate dendro'
+  },
+  {
+    year:2026,
     title:'Comparison of methods for dividing earlywood and latewood based on tree-ring density',
     original:'基于树轮密度的早晚材划分方法比较',
     authors:'M. Chen, <strong>W. Xiang</strong>, T. Liu, D. Xu, Z. Pei',
